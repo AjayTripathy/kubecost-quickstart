@@ -109,7 +109,7 @@ persistence:
   # subPath: ""
   # existingClaim:
 
-adminUser: admin
+# adminUser: admin
 # adminPassword: strongpassword
 
 ## Use an alternate scheduler, e.g. "stork".
@@ -210,6 +210,10 @@ grafana.ini:
     mode: console
   grafana_net:
     url: https://grafana.net
+  auth.anonymous:
+    enabled: true
+    org_role:  Admin
+    org_name: Main Org.
 ## LDAP Authentication can be enabled with the following values on grafana.ini
 ## NOTE: Grafana will fail to start if the value for ldap.toml is invalid
   # auth.ldap:
