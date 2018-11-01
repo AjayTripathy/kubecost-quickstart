@@ -11,5 +11,9 @@ View the dashboard locally with
 
 > kubectl port-forward --namespace monitoring  deployment/cost-analyzer-grafana 3000
 
+Sample Cluster Dashboard Here:
+
+![Sample Dashboard](https://cdn-images-1.medium.com/max/800/1*rQI3-gKtgKwHSs7JgIdorw.png) 
+
 
 
