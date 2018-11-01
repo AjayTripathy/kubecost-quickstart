@@ -3,7 +3,9 @@ Quickly install kube-state-metrics, prometheus, and grafana on your cluster with
 
 > kubectl apply -f helm.yaml 
 
-sets up a suggestion for roles for your helm service
+Sets up a suggestion for roles for your helm service.
+
+Once the roles have been set up, navigate to the kubecost-quickstart home directory and run
 
 > helm install cost-analyzer --name cost-analyzer --namespace monitoring
 
