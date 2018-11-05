@@ -2,7 +2,10 @@
 Quickly install kube-state-metrics, prometheus, and grafana on your cluster with helm. Requires a helm installation.
 
 > git clone https://github.com/AjayTripathy/kubecost-quickstart.git
+
 > cd kubecost-quickstart
+> 
+
 
 We package a suggestion for roles for your helm service.From the kubecost-quickstart directory, run:
 
