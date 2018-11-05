@@ -7,7 +7,7 @@ Quickly install kube-state-metrics, prometheus, and grafana on your cluster with
 > 
 
 
-We package a suggestion for roles for your helm service.From the kubecost-quickstart directory, run:
+We package a suggestion for roles and role-based access control for your helm service.From the kubecost-quickstart directory, run:
 
 > kubectl apply -f helm.yaml 
 
