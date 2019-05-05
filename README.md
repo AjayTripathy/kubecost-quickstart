@@ -1,4 +1,6 @@
-# kubecost-quickstart
+## kubecost-quickstart
+
+# This project is deprecated in favor of the [Kubecost model](https://github.com/kubecost/cost-model).
 Quickly install kube-state-metrics, prometheus, and grafana on your cluster with helm. Requires a helm installation.
 
 > git clone https://github.com/AjayTripathy/kubecost-quickstart.git
